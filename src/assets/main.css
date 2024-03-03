@@ -1,0 +1,65 @@
+@import './__reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  --dark: #2d3436;
+  --light: #ecf0f1;
+  --accent: #6c5ce7;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+  color: var(--light);
+  box-sizing: border-box;
+}
+*:focus {
+  outline: 0;
+}
+
+html {
+  background: var(--dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+input,
+select {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
